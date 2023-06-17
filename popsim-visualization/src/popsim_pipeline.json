@@ -1,0 +1,1810 @@
+{
+  "nodes": [
+    {
+      "id": "ba9f5e74",
+      "name": "Cleaning Dataset P12i",
+      "full_name": "cleaning_dataset_P12I",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "5324ac13",
+      "name": "P12i",
+      "full_name": "P12I",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "21d654be",
+      "name": "P12i Cleaned",
+      "full_name": "P12I_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "bea928cc",
+      "name": "Cleaning Dataset P12j",
+      "full_name": "cleaning_dataset_P12J",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "4c58256b",
+      "name": "P12j",
+      "full_name": "P12J",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "750c2705",
+      "name": "P12j Cleaned",
+      "full_name": "P12J_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "9440cf8b",
+      "name": "Cleaning Dataset P12k",
+      "full_name": "cleaning_dataset_P12K",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "53ed5efd",
+      "name": "P12k",
+      "full_name": "P12K",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "b2defc4d",
+      "name": "P12k Cleaned",
+      "full_name": "P12K_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "78edf404",
+      "name": "Cleaning Dataset P12l",
+      "full_name": "cleaning_dataset_P12L",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "3963bd03",
+      "name": "P12l",
+      "full_name": "P12L",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "ca251d10",
+      "name": "P12l Cleaned",
+      "full_name": "P12L_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "a023f0bc",
+      "name": "Cleaning Dataset P12m",
+      "full_name": "cleaning_dataset_P12M",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "bc31ff06",
+      "name": "P12m",
+      "full_name": "P12M",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "43bc0d7c",
+      "name": "P12m Cleaned",
+      "full_name": "P12M_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "0c86ab28",
+      "name": "Cleaning Dataset P12n",
+      "full_name": "cleaning_dataset_P12N",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "0ae91882",
+      "name": "P12n",
+      "full_name": "P12N",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "2b50c42d",
+      "name": "P12n Cleaned",
+      "full_name": "P12N_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "f103a8a8",
+      "name": "Cleaning Dataset P12o",
+      "full_name": "cleaning_dataset_P12O",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "4276d593",
+      "name": "P12o",
+      "full_name": "P12O",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "55e7c6c5",
+      "name": "P12o Cleaned",
+      "full_name": "P12O_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "d4a34015",
+      "name": "Cleaning Dataset P12p",
+      "full_name": "cleaning_dataset_P12P",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "d2c3658d",
+      "name": "P12p",
+      "full_name": "P12P",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "f05e9839",
+      "name": "P12p Cleaned",
+      "full_name": "P12P_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "2a65683a",
+      "name": "Cleaning Dataset P12q",
+      "full_name": "cleaning_dataset_P12Q",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "468414ee",
+      "name": "P12q",
+      "full_name": "P12Q",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "11bd1bcc",
+      "name": "P12q Cleaned",
+      "full_name": "P12Q_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "2baffd32",
+      "name": "Cleaning Dataset P12r",
+      "full_name": "cleaning_dataset_P12R",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "763af9eb",
+      "name": "P12r",
+      "full_name": "P12R",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "005776f5",
+      "name": "P12r Cleaned",
+      "full_name": "P12R_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "403a44c3",
+      "name": "Cleaning Dataset P12s",
+      "full_name": "cleaning_dataset_P12S",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "a2e298aa",
+      "name": "P12s",
+      "full_name": "P12S",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "0bc1430f",
+      "name": "P12s Cleaned",
+      "full_name": "P12S_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "4f205d94",
+      "name": "Cleaning Dataset P12t",
+      "full_name": "cleaning_dataset_P12T",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "5145f24d",
+      "name": "P12t",
+      "full_name": "P12T",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "97ef15f0",
+      "name": "P12t Cleaned",
+      "full_name": "P12T_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "22cf6a59",
+      "name": "Cleaning Dataset P12u",
+      "full_name": "cleaning_dataset_P12U",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "ec02ad5b",
+      "name": "P12u",
+      "full_name": "P12U",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "a394636e",
+      "name": "P12u Cleaned",
+      "full_name": "P12U_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "a7d4a0b6",
+      "name": "Cleaning Dataset P12v",
+      "full_name": "cleaning_dataset_P12V",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "01f80df0",
+      "name": "P12v",
+      "full_name": "P12V",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.json_remote.JSONRemoteDataSet"
+    },
+    {
+      "id": "e88d0e91",
+      "name": "P12v Cleaned",
+      "full_name": "P12V_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "a1c91902",
+      "name": "Convert Geometry Data Node",
+      "full_name": "convert_geometry_data_node",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {
+        "shapefile_params": {
+          "crs": "EPSG:26916",
+          "columns": [
+            "GEOID20",
+            "geometry"
+          ],
+          "renames": {
+            "GEOID20": "GEO_ID"
+          }
+        }
+      }
+    },
+    {
+      "id": "15f9db0b",
+      "name": "Shapefile",
+      "full_name": "shapefile",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.shapefile.GeoPandasDataSet"
+    },
+    {
+      "id": "5b5dc680",
+      "name": "Params: Shapefile Params",
+      "full_name": "params:shapefile_params",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "load_data"
+      ],
+      "type": "parameters",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": null
+    },
+    {
+      "id": "1f9e7741",
+      "name": "Shapefile Cleaned",
+      "full_name": "shapefile_cleaned",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation",
+        "load_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "geopandas.geojson_dataset.GeoJSONDataSet"
+    },
+    {
+      "id": "cecd1c7b",
+      "name": "Load Data Node",
+      "full_name": "load_data_node",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "b47b3be6",
+      "name": "Raw Decennial",
+      "full_name": "raw_decennial",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_preprocessing",
+        "processing_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_preprocessing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "958124a4",
+      "name": "Calculate Normalized Cdf By Sum Node",
+      "full_name": "calculate_normalized_cdf_by_sum_node",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "processing_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "ad63fb7d",
+      "name": "Decennial Normalized Cdf By Fips",
+      "full_name": "decennial_normalized_cdf_by_FIPS",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation",
+        "processing_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_processing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "5cb2b2ca",
+      "name": "Calculate Normalized Cdf Node",
+      "full_name": "calculate_normalized_cdf_node",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "processing_data"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "4cf1ac55",
+      "name": "Decennial Normalized Cdf",
+      "full_name": "decennial_normalized_cdf",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation",
+        "processing_data"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_processing_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "c3142f28",
+      "name": "Get Uniform Sample From Distributions Node",
+      "full_name": "get_uniform_sample_from_distributions_node",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {
+        "sample": {
+          "size": 12477595,
+          "seed": 50
+        }
+      }
+    },
+    {
+      "id": "969b3940",
+      "name": "Params: Sample",
+      "full_name": "params:sample",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "parameters",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": null
+    },
+    {
+      "id": "063fe4be",
+      "name": "Fips Sample",
+      "full_name": "FIPS_sample",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_simulation_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "0ea60fd9",
+      "name": "Get Geo Sample Based On Series",
+      "full_name": "get_geo_sample_based_on_series",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "9671db35",
+      "name": "Decennial Geo Sample",
+      "full_name": "decennial_geo_sample",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_simulation_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "6c9293df",
+      "name": "Get Sample Based On Series",
+      "full_name": "get_sample_based_on_series",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {}
+    },
+    {
+      "id": "3b488784",
+      "name": "Decennial Sample",
+      "full_name": "decennial_sample",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_simulation_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    },
+    {
+      "id": "11e758b5",
+      "name": "Merge And Populate Columns",
+      "full_name": "merge_and_populate_columns",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "task",
+      "modular_pipelines": [],
+      "parameters": {
+        "labels_annotation": {
+          "race_and_ethnicity": {
+            "I": [
+              "White Alone",
+              "Not Hispanic or Latino"
+            ],
+            "J": [
+              "Black or African American Alone",
+              "Not Hispanic or Latino"
+            ],
+            "K": [
+              "American Indian or Alaska Native",
+              "Not Hispanic or Latino"
+            ],
+            "L": [
+              "Asian Alone",
+              "Not Hispanic or Latino"
+            ],
+            "M": [
+              "Native Hawaiian or Other Pacific Islander Alone",
+              "Not Hispanic or Latino"
+            ],
+            "N": [
+              "Some Other Race Alone",
+              "Not Hispanic or Latino"
+            ],
+            "O": [
+              "Two or More Races",
+              "Not Hispanic or Latino"
+            ],
+            "P": [
+              "White Alone",
+              "Hispanic or Latino"
+            ],
+            "Q": [
+              "Black or African American Alone",
+              "Hispanic or Latino"
+            ],
+            "R": [
+              "American Indian or Alaska Native",
+              "Hispanic or Latino"
+            ],
+            "S": [
+              "Asian Alone",
+              "Hispanic or Latino"
+            ],
+            "T": [
+              "Native Hawaiian or Other Pacific Islander Alone",
+              "Hispanic or Latino"
+            ],
+            "U": [
+              "Some Other Race Alone",
+              "Hispanic or Latino"
+            ],
+            "V": [
+              "Two or More Races",
+              "Hispanic or Latino"
+            ]
+          },
+          "sex_and_age_range": {
+            "003": [
+              "Male",
+              [
+                0,
+                4
+              ]
+            ],
+            "004": [
+              "Male",
+              [
+                5,
+                9
+              ]
+            ],
+            "005": [
+              "Male",
+              [
+                10,
+                14
+              ]
+            ],
+            "006": [
+              "Male",
+              [
+                15,
+                19
+              ]
+            ],
+            "007": [
+              "Male",
+              [
+                18,
+                19
+              ]
+            ],
+            "008": [
+              "Male",
+              [
+                20,
+                20
+              ]
+            ],
+            "009": [
+              "Male",
+              [
+                21,
+                21
+              ]
+            ],
+            "010": [
+              "Male",
+              [
+                22,
+                24
+              ]
+            ],
+            "011": [
+              "Male",
+              [
+                25,
+                29
+              ]
+            ],
+            "012": [
+              "Male",
+              [
+                30,
+                34
+              ]
+            ],
+            "013": [
+              "Male",
+              [
+                35,
+                39
+              ]
+            ],
+            "014": [
+              "Male",
+              [
+                40,
+                44
+              ]
+            ],
+            "015": [
+              "Male",
+              [
+                45,
+                49
+              ]
+            ],
+            "016": [
+              "Male",
+              [
+                50,
+                54
+              ]
+            ],
+            "017": [
+              "Male",
+              [
+                55,
+                59
+              ]
+            ],
+            "018": [
+              "Male",
+              [
+                60,
+                61
+              ]
+            ],
+            "019": [
+              "Male",
+              [
+                62,
+                64
+              ]
+            ],
+            "020": [
+              "Male",
+              [
+                65,
+                66
+              ]
+            ],
+            "021": [
+              "Male",
+              [
+                67,
+                69
+              ]
+            ],
+            "022": [
+              "Male",
+              [
+                70,
+                74
+              ]
+            ],
+            "023": [
+              "Male",
+              [
+                75,
+                79
+              ]
+            ],
+            "024": [
+              "Male",
+              [
+                80,
+                84
+              ]
+            ],
+            "025": [
+              "Male",
+              [
+                85,
+                100
+              ]
+            ],
+            "027": [
+              "Female",
+              [
+                0,
+                4
+              ]
+            ],
+            "028": [
+              "Female",
+              [
+                5,
+                9
+              ]
+            ],
+            "029": [
+              "Female",
+              [
+                10,
+                14
+              ]
+            ],
+            "030": [
+              "Female",
+              [
+                15,
+                17
+              ]
+            ],
+            "031": [
+              "Female",
+              [
+                18,
+                19
+              ]
+            ],
+            "032": [
+              "Female",
+              [
+                20,
+                20
+              ]
+            ],
+            "033": [
+              "Female",
+              [
+                21,
+                21
+              ]
+            ],
+            "034": [
+              "Female",
+              [
+                22,
+                24
+              ]
+            ],
+            "035": [
+              "Female",
+              [
+                25,
+                29
+              ]
+            ],
+            "036": [
+              "Female",
+              [
+                30,
+                34
+              ]
+            ],
+            "037": [
+              "Female",
+              [
+                35,
+                39
+              ]
+            ],
+            "038": [
+              "Female",
+              [
+                40,
+                44
+              ]
+            ],
+            "039": [
+              "Female",
+              [
+                45,
+                49
+              ]
+            ],
+            "040": [
+              "Female",
+              [
+                50,
+                54
+              ]
+            ],
+            "041": [
+              "Female",
+              [
+                55,
+                59
+              ]
+            ],
+            "042": [
+              "Female",
+              [
+                60,
+                61
+              ]
+            ],
+            "043": [
+              "Female",
+              [
+                62,
+                64
+              ]
+            ],
+            "044": [
+              "Female",
+              [
+                65,
+                66
+              ]
+            ],
+            "045": [
+              "Female",
+              [
+                67,
+                69
+              ]
+            ],
+            "046": [
+              "Female",
+              [
+                70,
+                74
+              ]
+            ],
+            "047": [
+              "Female",
+              [
+                75,
+                79
+              ]
+            ],
+            "048": [
+              "Female",
+              [
+                80,
+                84
+              ]
+            ],
+            "049": [
+              "Female",
+              [
+                85,
+                100
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "9ab6d2d6",
+      "name": "Params: Labels Annotation",
+      "full_name": "params:labels_annotation",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "parameters",
+      "modular_pipelines": [],
+      "layer": null,
+      "dataset_type": null
+    },
+    {
+      "id": "d71eeb35",
+      "name": "Decennial Sample With Geo",
+      "full_name": "decennial_sample_with_geo",
+      "tags": [],
+      "pipelines": [
+        "__default__",
+        "data_simulation"
+      ],
+      "type": "data",
+      "modular_pipelines": [],
+      "layer": "data_simulation_layer",
+      "dataset_type": "io.csv_modin.ModinCSVDataSet"
+    }
+  ],
+  "edges": [
+    {
+      "source": "468414ee",
+      "target": "2a65683a"
+    },
+    {
+      "source": "ad63fb7d",
+      "target": "c3142f28"
+    },
+    {
+      "source": "78edf404",
+      "target": "ca251d10"
+    },
+    {
+      "source": "11e758b5",
+      "target": "d71eeb35"
+    },
+    {
+      "source": "a2e298aa",
+      "target": "403a44c3"
+    },
+    {
+      "source": "ca251d10",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "9ab6d2d6",
+      "target": "11e758b5"
+    },
+    {
+      "source": "e88d0e91",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "063fe4be",
+      "target": "6c9293df"
+    },
+    {
+      "source": "22cf6a59",
+      "target": "a394636e"
+    },
+    {
+      "source": "b47b3be6",
+      "target": "5cb2b2ca"
+    },
+    {
+      "source": "063fe4be",
+      "target": "0ea60fd9"
+    },
+    {
+      "source": "b47b3be6",
+      "target": "958124a4"
+    },
+    {
+      "source": "3963bd03",
+      "target": "78edf404"
+    },
+    {
+      "source": "cecd1c7b",
+      "target": "b47b3be6"
+    },
+    {
+      "source": "f103a8a8",
+      "target": "55e7c6c5"
+    },
+    {
+      "source": "11bd1bcc",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "5324ac13",
+      "target": "ba9f5e74"
+    },
+    {
+      "source": "bea928cc",
+      "target": "750c2705"
+    },
+    {
+      "source": "2baffd32",
+      "target": "005776f5"
+    },
+    {
+      "source": "750c2705",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "d4a34015",
+      "target": "f05e9839"
+    },
+    {
+      "source": "4276d593",
+      "target": "f103a8a8"
+    },
+    {
+      "source": "4cf1ac55",
+      "target": "6c9293df"
+    },
+    {
+      "source": "43bc0d7c",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "a7d4a0b6",
+      "target": "e88d0e91"
+    },
+    {
+      "source": "763af9eb",
+      "target": "2baffd32"
+    },
+    {
+      "source": "4c58256b",
+      "target": "bea928cc"
+    },
+    {
+      "source": "0ae91882",
+      "target": "0c86ab28"
+    },
+    {
+      "source": "a1c91902",
+      "target": "1f9e7741"
+    },
+    {
+      "source": "0c86ab28",
+      "target": "2b50c42d"
+    },
+    {
+      "source": "55e7c6c5",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "97ef15f0",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "1f9e7741",
+      "target": "0ea60fd9"
+    },
+    {
+      "source": "9671db35",
+      "target": "11e758b5"
+    },
+    {
+      "source": "f05e9839",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "d2c3658d",
+      "target": "d4a34015"
+    },
+    {
+      "source": "21d654be",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "c3142f28",
+      "target": "063fe4be"
+    },
+    {
+      "source": "6c9293df",
+      "target": "3b488784"
+    },
+    {
+      "source": "5145f24d",
+      "target": "4f205d94"
+    },
+    {
+      "source": "01f80df0",
+      "target": "a7d4a0b6"
+    },
+    {
+      "source": "bc31ff06",
+      "target": "a023f0bc"
+    },
+    {
+      "source": "2a65683a",
+      "target": "11bd1bcc"
+    },
+    {
+      "source": "ba9f5e74",
+      "target": "21d654be"
+    },
+    {
+      "source": "3b488784",
+      "target": "11e758b5"
+    },
+    {
+      "source": "2b50c42d",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "4f205d94",
+      "target": "97ef15f0"
+    },
+    {
+      "source": "53ed5efd",
+      "target": "9440cf8b"
+    },
+    {
+      "source": "0bc1430f",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "a394636e",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "403a44c3",
+      "target": "0bc1430f"
+    },
+    {
+      "source": "a023f0bc",
+      "target": "43bc0d7c"
+    },
+    {
+      "source": "15f9db0b",
+      "target": "a1c91902"
+    },
+    {
+      "source": "ec02ad5b",
+      "target": "22cf6a59"
+    },
+    {
+      "source": "5b5dc680",
+      "target": "a1c91902"
+    },
+    {
+      "source": "958124a4",
+      "target": "ad63fb7d"
+    },
+    {
+      "source": "b2defc4d",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "005776f5",
+      "target": "cecd1c7b"
+    },
+    {
+      "source": "0ea60fd9",
+      "target": "9671db35"
+    },
+    {
+      "source": "5cb2b2ca",
+      "target": "4cf1ac55"
+    },
+    {
+      "source": "969b3940",
+      "target": "c3142f28"
+    },
+    {
+      "source": "9440cf8b",
+      "target": "b2defc4d"
+    }
+  ],
+  "layers": [
+    "data_preprocessing_layer",
+    "data_processing_layer",
+    "data_simulation_layer"
+  ],
+  "tags": [],
+  "pipelines": [
+    {
+      "id": "__default__",
+      "name": "Default"
+    },
+    {
+      "id": "data_simulation",
+      "name": "Data Simulation"
+    },
+    {
+      "id": "processing_data",
+      "name": "Processing Data"
+    },
+    {
+      "id": "data_preprocessing",
+      "name": "Data Preprocessing"
+    },
+    {
+      "id": "load_data",
+      "name": "Load Data"
+    }
+  ],
+  "modular_pipelines": {
+    "__root__": {
+      "id": "__root__",
+      "name": "Root",
+      "inputs": [],
+      "outputs": [],
+      "children": [
+        {
+          "id": "11bd1bcc",
+          "type": "data"
+        },
+        {
+          "id": "b47b3be6",
+          "type": "data"
+        },
+        {
+          "id": "750c2705",
+          "type": "data"
+        },
+        {
+          "id": "a1c91902",
+          "type": "task"
+        },
+        {
+          "id": "4f205d94",
+          "type": "task"
+        },
+        {
+          "id": "969b3940",
+          "type": "parameters"
+        },
+        {
+          "id": "063fe4be",
+          "type": "data"
+        },
+        {
+          "id": "d2c3658d",
+          "type": "data"
+        },
+        {
+          "id": "43bc0d7c",
+          "type": "data"
+        },
+        {
+          "id": "01f80df0",
+          "type": "data"
+        },
+        {
+          "id": "0c86ab28",
+          "type": "task"
+        },
+        {
+          "id": "2baffd32",
+          "type": "task"
+        },
+        {
+          "id": "ec02ad5b",
+          "type": "data"
+        },
+        {
+          "id": "55e7c6c5",
+          "type": "data"
+        },
+        {
+          "id": "97ef15f0",
+          "type": "data"
+        },
+        {
+          "id": "15f9db0b",
+          "type": "data"
+        },
+        {
+          "id": "cecd1c7b",
+          "type": "task"
+        },
+        {
+          "id": "5145f24d",
+          "type": "data"
+        },
+        {
+          "id": "f05e9839",
+          "type": "data"
+        },
+        {
+          "id": "763af9eb",
+          "type": "data"
+        },
+        {
+          "id": "9440cf8b",
+          "type": "task"
+        },
+        {
+          "id": "21d654be",
+          "type": "data"
+        },
+        {
+          "id": "bea928cc",
+          "type": "task"
+        },
+        {
+          "id": "5324ac13",
+          "type": "data"
+        },
+        {
+          "id": "11e758b5",
+          "type": "task"
+        },
+        {
+          "id": "a7d4a0b6",
+          "type": "task"
+        },
+        {
+          "id": "4c58256b",
+          "type": "data"
+        },
+        {
+          "id": "53ed5efd",
+          "type": "data"
+        },
+        {
+          "id": "c3142f28",
+          "type": "task"
+        },
+        {
+          "id": "78edf404",
+          "type": "task"
+        },
+        {
+          "id": "ba9f5e74",
+          "type": "task"
+        },
+        {
+          "id": "4cf1ac55",
+          "type": "data"
+        },
+        {
+          "id": "2b50c42d",
+          "type": "data"
+        },
+        {
+          "id": "0ae91882",
+          "type": "data"
+        },
+        {
+          "id": "0bc1430f",
+          "type": "data"
+        },
+        {
+          "id": "a394636e",
+          "type": "data"
+        },
+        {
+          "id": "1f9e7741",
+          "type": "data"
+        },
+        {
+          "id": "b2defc4d",
+          "type": "data"
+        },
+        {
+          "id": "005776f5",
+          "type": "data"
+        },
+        {
+          "id": "a2e298aa",
+          "type": "data"
+        },
+        {
+          "id": "f103a8a8",
+          "type": "task"
+        },
+        {
+          "id": "5b5dc680",
+          "type": "parameters"
+        },
+        {
+          "id": "22cf6a59",
+          "type": "task"
+        },
+        {
+          "id": "2a65683a",
+          "type": "task"
+        },
+        {
+          "id": "9ab6d2d6",
+          "type": "parameters"
+        },
+        {
+          "id": "6c9293df",
+          "type": "task"
+        },
+        {
+          "id": "403a44c3",
+          "type": "task"
+        },
+        {
+          "id": "d71eeb35",
+          "type": "data"
+        },
+        {
+          "id": "958124a4",
+          "type": "task"
+        },
+        {
+          "id": "468414ee",
+          "type": "data"
+        },
+        {
+          "id": "ca251d10",
+          "type": "data"
+        },
+        {
+          "id": "bc31ff06",
+          "type": "data"
+        },
+        {
+          "id": "3963bd03",
+          "type": "data"
+        },
+        {
+          "id": "e88d0e91",
+          "type": "data"
+        },
+        {
+          "id": "9671db35",
+          "type": "data"
+        },
+        {
+          "id": "ad63fb7d",
+          "type": "data"
+        },
+        {
+          "id": "5cb2b2ca",
+          "type": "task"
+        },
+        {
+          "id": "0ea60fd9",
+          "type": "task"
+        },
+        {
+          "id": "d4a34015",
+          "type": "task"
+        },
+        {
+          "id": "a023f0bc",
+          "type": "task"
+        },
+        {
+          "id": "4276d593",
+          "type": "data"
+        },
+        {
+          "id": "3b488784",
+          "type": "data"
+        }
+      ]
+    }
+  },
+  "selected_pipeline": "__default__"
+}
